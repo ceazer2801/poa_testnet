@@ -1,0 +1,73 @@
+=============== Dec 8, 2019 (CST) ===============
+16:20:38.730720 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:20:38.734741 db@open opening
+16:20:38.735705 version@stat F·[] S·0B[] Sc·[]
+16:20:38.738698 db@janitor F·2 G·0
+16:20:38.738698 db@open done T·3.957ms
+16:20:43.960352 db@close closing
+16:20:43.960352 db@close done T·0s
+=============== Dec 8, 2019 (CST) ===============
+16:21:20.620385 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:21:20.621408 version@stat F·[] S·0B[] Sc·[]
+16:21:20.621408 db@open opening
+16:21:20.621408 journal@recovery F·1
+16:21:20.621408 journal@recovery recovering @1
+16:21:20.624440 memdb@flush created L0@2 N·36 S·1KiB "loc..seq,v23":"version,v1"
+16:21:20.624440 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+16:21:20.632354 db@janitor F·3 G·0
+16:21:20.632354 db@open done T·10.946ms
+16:22:29.178276 db@close closing
+16:22:29.178276 db@close done T·0s
+=============== Dec 8, 2019 (CST) ===============
+16:22:44.847844 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:44.848842 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+16:22:44.848842 db@open opening
+16:22:44.848842 journal@recovery F·1
+16:22:44.848842 journal@recovery recovering @3
+16:22:44.851914 memdb@flush created L0@5 N·435 S·13KiB "loc..seq,v64":"n:\xff..ong,v365"
+16:22:44.851914 version@stat F·[2] S·14KiB[14KiB] Sc·[0.50]
+16:22:44.858815 db@janitor F·4 G·0
+16:22:44.858815 db@open done T·9.9733ms
+16:22:44.863827 table@compaction L0·2 -> L1·0 S·14KiB Q·473
+16:22:44.866795 table@build created L1@8 N·376 S·13KiB "loc..seq,v64":"version,v1"
+16:22:44.866795 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+16:22:44.868789 table@compaction committed F-1 S-1KiB Ke·0 D·95 T·4.9621ms
+16:22:44.871781 table@remove removed @2
+16:23:48.770627 db@close closing
+16:23:48.770627 db@close done T·0s
+=============== Dec 8, 2019 (CST) ===============
+16:24:12.417631 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:24:12.417631 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+16:24:12.417631 db@open opening
+16:24:12.417631 journal@recovery F·1
+16:24:12.418629 journal@recovery recovering @6
+16:24:12.420624 memdb@flush created L0@9 N·531 S·15KiB "loc..seq,v486":"n:\xfd..ong,v959"
+16:24:12.421621 version@stat F·[1 1] S·29KiB[15KiB 13KiB] Sc·[0.25 0.00]
+16:24:12.427605 db@janitor F·5 G·1
+16:24:12.427605 db@janitor removing table-5
+16:24:12.427605 db@open done T·9.9732ms
+16:24:12.436581 table@compaction L0·1 -> L1·1 S·29KiB Q·1005
+16:24:12.438576 table@build created L1@12 N·775 S·27KiB "loc..seq,v486":"version,v1"
+16:24:12.438576 version@stat F·[0 1] S·27KiB[0B 27KiB] Sc·[0.00 0.00]
+16:24:12.441568 table@compaction committed F-1 S-1KiB Ke·0 D·132 T·4.9869ms
+16:24:12.451542 table@remove removed @8
+16:37:06.356049 db@close closing
+16:37:06.356049 db@close done T·0s
+=============== Dec 8, 2019 (CST) ===============
+16:37:25.310047 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:37:25.310047 version@stat F·[0 1] S·27KiB[0B 27KiB] Sc·[0.00 0.00]
+16:37:25.310047 db@open opening
+16:37:25.311061 journal@recovery F·1
+16:37:25.311061 journal@recovery recovering @10
+16:37:25.323084 memdb@flush created L0@13 N·5289 S·137KiB "loc..seq,v1018":"n:\xff..ail,v5946"
+16:37:25.323084 version@stat F·[1 1] S·165KiB[137KiB 27KiB] Sc·[0.25 0.00]
+16:37:25.329993 db@janitor F·5 G·1
+16:37:25.329993 db@janitor removing table-9
+16:37:25.329993 db@open done T·19.9458ms
+16:37:33.143484 table@compaction L0·1 -> L1·1 S·165KiB Q·6351
+16:37:33.156398 table@build created L1@16 N·4074 S·141KiB "loc..seq,v1018":"version,v1"
+16:37:33.156398 version@stat F·[0 1] S·141KiB[0B 141KiB] Sc·[0.00 0.00]
+16:37:33.158164 table@compaction committed F-1 S-23KiB Ke·0 D·1990 T·14.6805ms
+16:37:33.158164 table@remove removed @12
+16:53:47.613300 db@close closing
+16:53:47.614297 db@close done T·997.3µs
