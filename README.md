@@ -28,9 +28,9 @@ Node2 Port 30304<br>
 
 ---
 
-## To get the network started
+## Getting the Network Started...
 1. Open a terminal (Git Bash for Windows) and create a project directory.
-2. Clone to repo to your local machine using git.  Once you have to repo cloned, 'cd' into the 'Zbank' directory
+2. Clone the repo to your local machine using git.  Once you have to repo cloned, 'cd' into the 'Zbank' directory
 3. To Launch the first node enter the following command, making sure to capture the "enode://....." after launched
     ` ./geth --datadir node1 --mine --minerthreads 1 --unlock 0x7126393AA85758E3d5d8709b8868B61f4fB976ef --rpc --allow-insecure-unlock --ipcdisable `
 4. Once prompted, enter the password "Test1" to unlock the account associated with node1
@@ -38,10 +38,12 @@ Node2 Port 30304<br>
     ` ./geth --datadir node2 --bootnodes "enode://10f7546aecf2604d81df701e76489ecccfa2167d8e77f79eb2f9cd969a828e33d865e474abef892d07c536ea8505530b5799d168e6c5daf576241efda31a2c58@127.0.0.1:30303" --ipcdisable --port 30304 --unlock 0x1BAbEABa227d1a8DC1b101Aa6D5d6aB3cDBd3F24 --allow-insecure-unlock --mine --minerthreads 1 `
 6. Once prompted, enter the password "Test2" to unlock the account associated with node2
 
+You should now have 2 nodes running, both nodes mining, and signing blocks.
+
 ---
 
-## Connect a wallet
-Once you have your network running connect your **'My Crypto'** wallet by adding a **'Custom Node'**
+## Connect to MyCrypto Wallet
+Once you have your network running, its time to connect your **'My Crypto'** wallet by adding a **'Custom Node'**
 
 Start by clicking on the **'Change Network'** on the bottom left hand side of the window, just below the other networks.  You then want to select the **'Add Custom Node'** option.  In the next window prompt you want to change the **'Network'** dropdown menu to **'Custom'** and fill out the following fields:
 
